@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>View Attendance</title>
+    <link rel="stylesheet" href="style.css" />
+      <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My-Portfolio</title>
+    <link href="Styles/style.css" rel="stylesheet"/>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header>
+      <h1>Student Attendace Management System</h1>
+      <nav class="nav_links">
+        <a href="index.html">Add Student</a>
+        <a href="mark-attendance.html">Mark Attendance</a>
+        <a href="view-attendance.html">View Records</a>
+      </nav>
+    </header>
+ <div class="form-container">
+     <h3>Attendance Summary</h3>
+    <p>Total Present: <span id="presentCount">0</span></p>
+    <p>Total Absent: <span id="absentCount">0</span></p>
+    <p>Total Late: <span id="lateCount">0</span></p>
+
+    <table border="1" id="attendanceTable">
+      <thead>
+        <tr>
+          <th>Student Name</th>
+          <th>Class</th>
+          <th>Date</th>
+          <th>Status</th>
+          <th>Action</th>
+        </tr>
+      </thead>
+      <tbody>
+        <!-- Data will appear here -->
+      </tbody>
+    </table>
+ </div>
+   <footer>
+        <p>&copy 2026 William k. vessellee. All right reserved.</p>
+        <div class="socials">
+          <a href="mailto:wvessellee14@gmail.com" class="btn"><i class="fa-brands fa-google"></i></a>
+          <a
+                href="https://web.facebook.com/william.vessellee.1"
+                target="_blank"
+                aria-label="facebook" >
+              
+                <i class="fa-brands fa-facebook"></i>
+              </a>
+               <a href="https://github.com/Billkv12" target="_blank"><i class="fa-brands fa-github"></i></a>
+        </div>
+      </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
